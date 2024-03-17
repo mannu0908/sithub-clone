@@ -1,0 +1,253 @@
+#top-head{
+    background: url(../images/bg_shape.webp) ;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    background-position: center center;
+}
+
+.container-fluid{
+    background: transparent;
+}
+
+hr{
+    border-bottom: 1px solid white;
+}
+#orange{
+    background: linear-gradient(to left, #FF9C09, #FF5D2C);
+    border: none;
+    outline: none;
+}
+#white{
+    border: none;
+    outline: none;
+}
+#top-head .nav-item>.nav-link{
+    color: #9cb2c5;
+}
+#top-head .nav-item>.nav-link:hover{
+    color: #eaebed;
+    transition: .3s;
+}
+#find{
+    background: url(../images/1.webp) fixed;
+    background-repeat: no-repeat;
+}
+#contact{
+    background: url(../images/contactbg.webp) center ;
+}
+
+.spotlight-section {
+    background: url(../images/contactbg.webp) center bottom/cover no-repeat;
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
+  .spotlight-section h3{
+    font-size: 40px;
+  }
+  .spotlight-section h2{
+    width: 50%;
+    font-size: 44px;
+    
+  }
+  .spotlight-section p{
+    font-size: 18px;
+  }
+
+  /* carousel section */
+  .over-organization-section {
+    overflow: hidden;
+  }
+  #organizations-slider img {
+    margin: 15px;
+  }
+  .owl-slider {
+    animation: slide 10s linear infinite;
+  }
+  @keyframes slide {
+    0% {
+      transform: translateX(0px);
+    }
+    100% {
+      transform: translateX(-1100px);
+    }
+  }
+
+  .header{
+    background:linear-gradient(to right, #1EB0F9, #47C7DF, #70DDC4);
+    color: white;
+    padding: 10px;
+  }
+
+  .our-alimini-section{
+    background:url(../images/3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  #review .col-lg-3{
+    background-color: white;
+    margin: 15px;
+    margin-bottom: 60px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  #carouselIndicator button{
+    width: 25px;
+    height: 25px;
+    background: transparent;
+    border: 2px solid rgb(191, 206, 191);
+    border-radius: 50%;
+  }
+
+  #modal label{
+    color: black;
+  }
+
+  #back-to-top{
+    position: fixed;
+    bottom: 5%;
+    right: 3%;
+  }
+  #back-to-top a{
+    text-decoration: none;
+    color: white;
+  }
+
+  #alimini{
+    background: #eae8e880;
+  }
+  .orange{
+    color: orange;
+  }
+
+  /* hover */
+  
+#drop:hover .active{
+    display: block;
+}
+
+
+#subdrop1{
+    position: absolute;
+    top: 0%;
+    left: 100%;
+}
+#subdrop2{
+    position: absolute;
+    top: 50%;
+    left: 100%;
+}
+
+.slide-top {
+	animation: slide-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@keyframes slide-top {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+#drop1:hover #subdrop1{
+    display: block;
+}
+#drop2:hover #subdrop2{
+    display: block;
+}
+#rocket{
+    animation: up-down 3s linear infinite ;
+}
+@keyframes up-down {
+    0%{
+        transform: translateY(-3%);
+    }
+    50%{
+        transform: translateY(3%);
+    }
+    100%{
+        transform: translateY(-3%);
+    }
+}
+#more .col-lg-8{
+    z-index: 1;
+}
+#our-courses .col-lg-6 .left-card,
+ #our-courses .col-lg-6 .right-card{
+   transition: 2s;
+}
+
+#our-courses .col-lg-6 .left-card:hover{
+transform: translateX(-50px);
+}
+#our-courses .col-lg-6 .right-card:hover{
+transform: translateX(50px);
+}
+
+.footer-list{
+  border-bottom: 1px dotted white;
+}
+footer{
+  background: url(../images/footer-bg.webp) no-repeat;
+  background-size: cover;
+}
+
+#user-image{
+  background: linear-gradient(110deg, #000B72, #1AA8C7);
+  padding: 20px 20px 0px 0px;
+}
+#uimage{
+  transform: translate(-20px, 2px);
+}
+
+@media screen and (max-width: 480px) {
+  #our-courses .col-lg-6 .left-card:hover{
+    transform: translateX(0px);
+    }
+  #our-courses .col-lg-6 .right-card:hover{
+    transform: translateX(0px);
+    }
+}
+
+.footer-link, footer p, footer li, #topnav li a{
+  color: #a29f9f;
+}
+.footer-link:hover, footer p:hover, footer li:hover, #topnav li a:hover{
+  color: #ece6e6;
+  transition:.2s;
+  scale: 1.1;
+}
+
+#whatsapp button{
+  z-index: 1;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+  background-color: #edf0f2;
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(blue, #2699fb);
+  background-color: #2699fb;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#triangle-up {
+  position: absolute;
+  top: -9px;
+  left: 20px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 10px solid white;
+}
+
